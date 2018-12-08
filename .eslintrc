@@ -1,0 +1,12 @@
+{
+    "env": {
+        "es6": false,
+        "jquery": true,
+        "browser": true,
+        "commonjs": true
+    },
+    "extends": "standard",
+    "rules": {
+        "no-undef": "off"
+    }
+}

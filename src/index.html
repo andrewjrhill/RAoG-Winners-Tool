@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Acts of Gaming Winners Tool</title>
+    <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="styles/styles.min.css">
+  </head>
+
+  <body>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped" role="progressbar"></div>
+    </div>
+
+    <nav class="navbar">
+      <span class="navbar-brand">RAoG Winners Tool</span>
+      <span class="navbar-text">
+        <a class="navbar-github" href="https://github.com/andrewjrhill/raog-winners-tool/" target="_blank">
+          <img src="assets/github-logo.png" alt="GitHub logo. Click to view source code on GitHub." />
+        </a>
+      </span>
+    </nav>
+
+    <div class="alert alert-danger" role="alert">&nbsp;</div>
+
+    <div id="fireworks"></div>
+
+    <main>
+      <div class="content">
+        <form class="raog-form">
+          <input type="text" class="form-control" id="urlInput" aria-describedby="urlHelp" placeholder="Insert an r/randomactsofgaming URL here">
+
+          <small id="urlHelp" class="form-text text-muted">
+            Example: https://www.reddit.com/r/RandomActsOfGaming/comments/26o1hd/giveaway_watch_dogs_for_pc/
+          </small>
+
+          <div class="btn-wrapper">
+            <button type="button" class="btn btn-primary btn-submit btn-get-winner">Get a winner</button>
+            <button type="button" class="btn btn-secondary btn-example">Example</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="winners"></div>
+    </main>
+
+<script src="scripts/scripts.min.js"></script>
+  </body>
+</html>
