@@ -22,7 +22,7 @@
     "bootstrap": "^4.3.1",
     "breakpoint-sass": "^2.7.1",
     "fireworks-canvas": "^2.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "popper.js": "^1.14.3",
     "showdown": "^1.9.0"
   },
